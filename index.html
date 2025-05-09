@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>P. aequor DNA Lab</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>🧬 P. aequor DNA Lab</h1>
+
+    <section id="intro">
+      <h2>Welcome, Researcher!</h2>
+      <p>
+        You’re part of an elite research team exploring the ocean floor near hydrothermal vents. In the depths, your team has discovered a mysterious organism: <em>Pila aequor</em> (P. aequor).
+      </p>
+      <p>
+        This organism contains just 15 DNA bases—but mutates rapidly due to intense underwater conditions. Because P. aequor can’t survive above sea level and deep-sea expeditions are costly, your mission is to simulate its DNA in the lab.
+      </p>
+      <p>
+        By generating DNA samples, triggering mutations, and checking survival chances, you’ll help uncover how P. aequor adapts in the wild. Time to begin!
+      </p>
+    </section>
+
+    <section class="step">
+      <h3>Step 1: Generate a DNA specimen</h3>
+      <p>Every P. aequor starts with a random sequence of 15 DNA bases. Let’s create one in the lab and begin our analysis.</p>
+      <button id="generate">🔬 Generate DNA</button>
+    </section>
+
+    <section id="original-dna" hidden>
+      <h3>Original DNA</h3>
+      <div class="sequence" id="original-sequence"></div>
+    </section>
+
+    <section class="step" id="mutation-section" hidden>
+      <h3>Step 2: Mutate the organism</h3>
+      <p>Let’s simulate a natural mutation! One of the DNA bases will randomly change, just like it might in the deep sea.</p>
+      <button id="mutate">🧪 Mutate DNA</button>
+    </section>
+
+    <section id="mutated-dna" hidden>
+      <h3>Mutated DNA</h3>
+      <div class="sequence" id="mutated-sequence"></div>
+    </section>
+
+    <section class="step" id="survival-section" hidden>
+      <h3>Step 3: Check survival chance</h3>
+      <p>Scientists discovered that P. aequor is more likely to survive if 60% or more of its DNA is made up of Cytosine (C) or Guanine (G). Let’s check if your mutated organism stands a chance.</p>
+      <button id="check">📊 Check Survival</button>
+    </section>
+
+    <section id="survival-result" hidden>
+      <h3>🧾 Survival Assessment</h3>
+      <div id="survival-status"></div>
+      <p class="story-text" id="survival-story"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
