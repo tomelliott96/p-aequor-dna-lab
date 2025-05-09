@@ -2,6 +2,8 @@
 
 A playful scientific simulation that lets you generate, mutate and evaluate the survival chances of a mysterious deep-sea organism discovered near hydrothermal vents.
 
+🔗 **[Live Demo on GitHub Pages](https://tomelliott96.github.io/p-aequor-dna-lab/)**
+
 ---
 
 ## 🧪 Features
